@@ -1,2 +1,3 @@
 # flask_webapp
-Projet Python. A flask webapp with API requests
+Projet Nomades - Python Software Engineer. 
+A crypto flask Webapp with API requests.
