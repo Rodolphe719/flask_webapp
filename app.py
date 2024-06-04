@@ -167,8 +167,8 @@ def profile():
 def logout():
     # Remove session data, this will log the user out
     session.pop('loggedin', None)
-    session.pop('id', None)
     session.pop('username', None)
+    session.pop('email', None)
     session.clear()
     # Redirect to login page
     return redirect('/login')
