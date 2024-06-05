@@ -5,7 +5,7 @@ package-lock.json
 README.md
 LICENSE
 
-# firestore credential
+# credential
 *cred.json
 
 __pycache__/*
