@@ -5,6 +5,7 @@ from flask import render_template, request, redirect, url_for, session
 # db toolz
 from flask_mysqldb import MySQL
 from mysql.connector import connect
+import requests
 
 #utilz
 import os, re, hashlib, string, random, uuid
@@ -174,11 +175,14 @@ def logout():
     return redirect('/login')
 
 
+# http://localhost:5000/cryptoweb/dashboard 
+# this will be the dashboard page
 @app.route('/dashboard')
 def dashboard():
     return render_template('/cryptoweb/dashboard.html')
 
-
+# http://localhost:5000/cryptoweb/portfolio 
+# this will be the portfolio page
 @app.route('/portfolio')
 def portfolio():
     return render_template('/cryptoweb/portfolio.html')

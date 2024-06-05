@@ -3,8 +3,10 @@
 
 package-lock.json
 README.md
+LICENSE
 
 # firestore credential
 *cred.json
 
-__pycache__/
+__pycache__/*
+__pycache__/app.cpython-310.pyc
